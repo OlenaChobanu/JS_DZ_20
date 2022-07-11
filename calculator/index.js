@@ -1,11 +1,11 @@
-const calAdd = require('./add');
-const calcMinus = require('./minus');
-const calcDivide = require('./divide');
-const calcTimes = require('./times');
+const add = require('./add/add');
+const minus = require('./minus/minus');
+const divide = require('./divide/divide');
+const times = require('./times/times');
 
 module.exports = {
-    calAdd,
-    calcMinus,
-    calcDivide,
-    calcTimes,
+    add,
+    minus,
+    divide,
+    times,
 }
